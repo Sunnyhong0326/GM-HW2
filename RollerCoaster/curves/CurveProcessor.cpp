@@ -79,9 +79,26 @@ void CurveProcessor::sampleCurvature(Spline* spline, float segLen, std::vector<f
     }
 }
 
-Eigen::Vector3f CurveProcessor::parallelTransport(Eigen::Vector3f &u0, Eigen::Vector3f &t0,
+/******************************************************************************
+Transport the roation from t0 to t1 on u0 and return u1
+
+Entry:
+  u0 - vector u at last time step
+  t0 - vector t at last time step
+  t1 - vector t at current time step
+
+Exit:
+  u1 - vector u at current time step
+******************************************************************************/
+Eigen::Vector3f CurveProcessor::parallelTransport(Eigen::Vector3f &u0, 
+                                                  Eigen::Vector3f &t0,
                                                   Eigen::Vector3f &t1) {
-  // TODO
+    /*
+    TODO:Replace the following code
+    1. Compute the axis of t0 and t1
+    2. Compute the rotation angle phi from t0 to t1
+    3. Rotate u0 on the axis with phi
+    */
   Eigen::Vector3f up = Eigen::Vector3f(0.0f, 1.0f, 0.0f);
   if (t1.dot(up) > 0.99f)
     up = Eigen::Vector3f(1, 0, 0);
