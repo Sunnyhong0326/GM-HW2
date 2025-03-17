@@ -1,7 +1,7 @@
 #pragma once
 #include "meshprocessor.h"
-#include "miscellaneous/Shader.h"
-#include "miscellaneous/camera.h"
+#include "../miscellaneous/Shader.h"
+#include "../miscellaneous/camera.h"
 #include <glad/glad.h>
 #include <vector>
 
