@@ -1,2 +1,335 @@
-﻿  BSpline.cpp
-  RollerCoaster.vcxproj -> C:\Users\julianakuei\Desktop\2025 semester\GM\GM-HW2\assignment2\Debug\RollerCoaster.exe
+﻿  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  BSpline.cpp
+  controller.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\controller.cpp(84,26): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\controller.cpp(322,26): warning C4244: '引數': 將 'double' 轉換為 'GLint'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\controller.cpp(322,16): warning C4244: '引數': 將 'const double' 轉換為 'GLint'，由於類型不同，可能導致資料遺失
+  Cart.cpp
+  CatmullRom.cpp
+  Curve.cpp
+  CurveProcessor.cpp
+  CurveRenderer.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(37,22): error C2039: 'clamp': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(37,27): error C3861: 'clamp': 找不到識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(43,19): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(55,31): warning C4244: '引數': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(56,31): warning C4244: '引數': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(57,31): warning C4244: '引數': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(84,16): error C2039: 'clamp': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(84,21): error C3861: 'clamp': 找不到識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(91,33): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(142,64): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(161,26): error C2039: 'clamp': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(26): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(161,31): error C3861: 'clamp': 找不到識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(166,37): warning C4244: '引數': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(167,37): warning C4244: '引數': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveRenderer.cpp(168,37): warning C4244: '引數': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+  Spline.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(75,13): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(109,43): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(116,42): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(123,44): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(130,43): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(137,42): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(144,44): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+  arrowhelper.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(32,8): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(32,14): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(32,15): error C2062: 未預期的類型 'float'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(33,8): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(33,14): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(33,15): error C2062: 未預期的類型 'float'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(34,8): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(34,14): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(34,15): error C2062: 未預期的類型 'unsigned int'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(47,19): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(50,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(51,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(52,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(55,7): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(56,7): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(57,7): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(69,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(70,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(71,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(73,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(74,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(75,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(80,3): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(81,3): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(82,3): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(84,3): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(85,3): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(86,3): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(88,3): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(89,3): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(90,3): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(92,3): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(93,3): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(94,3): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(97,5): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(98,5): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(99,5): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(101,5): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(102,5): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(103,5): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(115,33): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(115,66): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(115,97): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(120,33): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(120,65): error C2065: 'normals': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(120,95): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(125,41): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(125,80): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(126,30): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\arrowhelper.cpp(130,18): error C2065: 'indices': 未宣告的識別項
+  boxhelper.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(18,10): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(18,16): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(18,17): error C2062: 未預期的類型 'float'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(19,10): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(19,16): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(19,17): error C2062: 未預期的類型 'unsigned int'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(21,3): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(45,96): error C3079: 初始設定式清單不得用為此指派運算子的右運算元
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(48,3): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(55,3): error C3079: 初始設定式清單不得用為此指派運算子的右運算元
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(56,18): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(68,33): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(68,66): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(68,97): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(72,41): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(72,80): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\boxhelper.cpp(73,30): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+  axeshelper.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(57,10): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(57,16): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(57,24): error C2275: 'Eigen::Vector3f': 將此類型當做運算式的使用方式不合法
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(57): message : 請參閱 'Eigen::Vector3f' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(57,34): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(67,10): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(67,16): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(67,24): error C2275: 'Eigen::Vector3f': 將此類型當做運算式的使用方式不合法
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(67): message : 請參閱 'Eigen::Vector3f' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(67,34): error C2065: 'colors': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(84,35): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(85,17): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(85,48): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(91,35): error C2065: 'colors': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(92,17): error C2065: 'colors': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\axeshelper.cpp(92,46): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+  vertexhelper.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(34,8): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(34,14): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(34,15): error C2062: 未預期的類型 'float'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(35,8): error C2039: 'vector': 並非 'std' 的成員
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\iostream(19): message : 請參閱 'std' 的宣告
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(35,14): error C2065: 'vector': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(35,15): error C2062: 未預期的類型 'unsigned int'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(39,15): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(41,19): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(54,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(55,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(56,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(57,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(58,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(59,7): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(69,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(70,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(71,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(73,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(74,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(75,7): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(87,33): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(87,66): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(87,97): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(90,41): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(90,80): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(91,30): error C2198: 'PFNGLBUFFERDATAPROC': 呼叫的引數太少
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(100,13): error C2065: 'vertices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(101,13): error C2065: 'indices': 未宣告的識別項
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\helpers\vertexhelper.cpp(116,64): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+  main.cpp
+  learnply.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\learnply.cpp(79,59): warning C4312: '類型轉換': 將 'int' 轉換為較大的 'Vertex *'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\learnply.cpp(80,59): warning C4312: '類型轉換': 將 'int' 轉換為較大的 'Vertex *'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\learnply.cpp(81,59): warning C4312: '類型轉換': 將 'int' 轉換為較大的 'Vertex *'
+  正在產生程式碼...
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\CurveProcessor.cpp(184): warning C4715: 'CurveProcessor::convertSplineType': 不是所有控制路徑都傳回值
+  正在編譯...
+  meshprocessor.cpp
+  meshrenderer.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(33,38): warning C4244: '=': 將 'const double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(34,42): warning C4244: '=': 將 'const double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(35,42): warning C4244: '=': 將 'const double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(86,42): warning C4244: '=': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(87,46): warning C4244: '=': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(88,46): warning C4244: '=': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(90,46): warning C4244: '=': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(91,46): warning C4244: '=': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(92,46): warning C4244: '=': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(119,46): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\meshrenderer.cpp(127,40): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+  ply.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(173,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(211,19): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(205,15): warning C4101: 'elem': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(203,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(348,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(350,16): warning C4101: 'prop': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(579,24): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(474,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(668,31): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(702,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(741,19): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1013,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1042,31): warning C4267: '+=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1203,8): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1119,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1237,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1252,7): warning C4101: 'other_flag': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1377,9): warning C4101: 'j': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1377,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1589,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1698,18): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1699,19): warning C4244: '=': 將 'double' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1703,18): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1704,19): warning C4244: '=': 將 'double' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1780,18): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1781,19): warning C4244: '=': 將 'double' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1786,18): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1787,19): warning C4244: '=': 將 'double' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1905,17): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1933,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2002,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2008,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2013,18): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1991,7): warning C4101: 'count_type': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(1990,7): warning C4101: 'prop_type': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2080,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2194,16): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2220,38): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2260,38): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2414,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2416,16): warning C4101: 'prop': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2606,7): warning C4101: 'count': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2605,7): warning C4101: 'i': 未參考的區域變數
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2807,9): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  camera.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\miscellaneous\camera.cpp(21,20): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\miscellaneous\camera.cpp(186,18): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\miscellaneous\camera.cpp(213,81): warning C4244: '引數': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\miscellaneous\camera.cpp(213,44): warning C4244: '引數': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+  trackball.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\miscellaneous\trackball.cpp(24,19): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\miscellaneous\trackball.cpp(46,14): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\miscellaneous\trackball.cpp(47,14): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\miscellaneous\trackball.cpp(48,25): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  model.cpp
+  Polyline.cpp
+  renderer.cpp
+  scene.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  正在產生程式碼...
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(503): warning C4700: 使用了未初始化的區域變數 'other_ptr'
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\mesh\ply.cpp(2765): warning C4700: 使用了未初始化的區域變數 'new_data'

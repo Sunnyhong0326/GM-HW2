@@ -1,5 +1,6 @@
 #include "Curve.h"
 #include <iostream>
+#include <Eigen/Dense>
 
 // Pre Calculate M * P for the formula of C(u) = T * M * P
 Curve::Curve(const Eigen::Vector3f& a, const Eigen::Vector3f& b,
@@ -35,7 +36,26 @@ Eigen::Vector3f Curve::getTangent(float u) {
 */
 float Curve::getCurvature(float u)
 {
-  return 0.0;
+    // Compute first derivative (tangent)
+    Eigen::Vector3f alpha_prime = getTangent(u);
+
+    // Compute second derivative using central difference
+    float h = 1e-4f;  // Small step for finite differences
+    Eigen::Vector3f alpha_prime1 = getTangent(u + h);
+    Eigen::Vector3f alpha_prime2 = getTangent(u - h);
+    Eigen::Vector3f alpha_double_prime = (alpha_prime1 - alpha_prime2) / (2 * h);
+
+    // Compute cross product || £\'(u) ¡Ñ £\''(u) ||
+    Eigen::Vector3f cross_product = alpha_prime.cross(alpha_double_prime);
+    float numerator = cross_product.norm();
+
+    // Compute || £\'(u) ||^3
+    float denominator = std::pow(alpha_prime.norm(), 3);
+
+    // Avoid division by zero
+    if (denominator < 1e-6f) return 0.0f;
+
+    return numerator / denominator;
 }
 
 // Calculate arc-length

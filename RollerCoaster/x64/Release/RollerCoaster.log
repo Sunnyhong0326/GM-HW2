@@ -1,0 +1,39 @@
+﻿  Spline.cpp
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(75,13): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(95,11): warning C4244: '正在初始化': 將 '__int64' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(120,43): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(127,42): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(134,44): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(141,43): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(148,42): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\RollerCoaster\curves\Spline.cpp(155,44): warning C4244: '引數': 將 '_Ty2' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty2=double
+          ]
+  正在產生程式碼
+  37 of 6563 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    13 functions were new in current compilation
+    235 functions had inline decision re-evaluated but remain unchanged
+  已完成程式碼產生
+  RollerCoaster.vcxproj -> C:\Users\Lin Ya-Ling\OneDrive\桌面\university\GM-HW2\Release\RollerCoaster.exe

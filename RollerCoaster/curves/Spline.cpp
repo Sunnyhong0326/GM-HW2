@@ -87,7 +87,18 @@ std::pair<int, float> Spline::parameterizeUnitSpeed(float s)
     Hint: We store the arc-length of each curve in preLength (s0-s1-s2-...-sn)
           Therefore, you can search s is in which interval of perLength and interpolate u
     */
-    return std::pair<int, float>(0, 0.0f);
+    if (s <= 0.0f) return { 0, 0.0f };
+    if (s >= preLength.back()) return { static_cast<int>(preLength.size()) - 1, 1.0f };
+
+    // Use binary search to find the segment
+    auto it = std::lower_bound(preLength.begin(), preLength.end(), s);
+    int i = std::distance(preLength.begin(), it) - 1;
+
+    float segmentStart = preLength[i];
+    float segmentEnd = preLength[i + 1];
+    float u = (s - segmentStart) / (segmentEnd - segmentStart);
+
+    return { i, u };
 }
 
 Eigen::Vector3f Spline::getPosition(float t, bool flagUS) {

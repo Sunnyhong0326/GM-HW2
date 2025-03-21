@@ -33,13 +33,18 @@ void BSpline::build() {
       }
   }
   else {
-      for (int i = 0; i < n-3; i++) {
+      // Open Uniform B-Spline (ensuring start at P0 and end at Pn)
+      addCurve(m_points[0], m_points[0], m_points[0], m_points[1], matM);
+      addCurve(m_points[0], m_points[0], m_points[1], m_points[2], matM); 
+      for (int i = 0; i < n - 3; i++) {
           addCurve(
-              m_points[i],          // P0
-              m_points[i + 1],      // P1
-              m_points[i + 2],      // P2
-              m_points[i + 3],      // P3
+              m_points[i],     // P0
+              m_points[i + 1], // P1
+              m_points[i + 2], // P2
+              m_points[i + 3], // P3
               matM);
       }
+      addCurve(m_points[n - 3], m_points[n - 2], m_points[n - 1], m_points[n - 1], matM); 
+      addCurve(m_points[n - 2], m_points[n - 1], m_points[n - 1], m_points[n - 1], matM);
   }
 }
